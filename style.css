@@ -81,10 +81,11 @@ button{
     100%{border-color: rgb(35, 136, 161);}
 }
 .signin{
-    display: flex;
+   display: flex
+;
     align-items: center;
     font-family: serif;
-    letter-spacing: 0;
+    letter-spacing: 0px;
     color: rgb(9, 105, 143);
     
 }
