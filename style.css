@@ -4,8 +4,7 @@ html{
 
 body{
     background: linear-gradient(85deg,rgb(217, 234, 240),rgba(123, 187, 224, 0.911));
-    font-family: monospace;
-    letter-spacing: 3.5px;
+    
     height: 100%;
     display: flex;
         flex-wrap: wrap;
@@ -13,6 +12,8 @@ body{
         justify-content: center;
 }
 .login-form{
+    font-family: monospace;
+    letter-spacing: 3.5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -79,7 +80,7 @@ button{
     50%{border-color: rgb(20, 185, 207);}
     100%{border-color: rgb(35, 136, 161);}
 }
-.U_R_L{
+.signin{
     display: flex;
     align-items: center;
     font-family: serif;
@@ -87,7 +88,11 @@ button{
     color: rgb(9, 105, 143);
     
 }
-.U_R_L a{
+.signin p{
+    font-family: serif;
+    letter-spacing: 0px;
+}
+.signin a{
     text-decoration: none;
     color: rgb(42, 78, 92);
 }
@@ -96,3 +101,4 @@ button{
     0981990711 Call
     0968868563 What's App
 */
+
