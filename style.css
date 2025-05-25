@@ -79,4 +79,20 @@ button{
     50%{border-color: rgb(20, 185, 207);}
     100%{border-color: rgb(35, 136, 161);}
 }
-
+.U_R_L{
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    letter-spacing: 0;
+    color: rgb(9, 105, 143);
+    
+}
+.U_R_L a{
+    text-decoration: none;
+    color: rgb(42, 78, 92);
+}
+/*
+    By Kareem Azzam
+    0981990711 Call
+    0968868563 What's App
+*/
